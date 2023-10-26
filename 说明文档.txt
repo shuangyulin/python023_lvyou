@@ -1,0 +1,8 @@
+后台路径地址：localhost:8080/djangomg217/admin/dist/index.html
+管理员 abo  密码 abo
+前台路径地址：localhost:8080/djangomg217/front/index.html 
+
+数据库连接路径：config
+
+user = root
+passwd = 123456 （密码123456 换成 和你电脑一致的 数据库密码即可）

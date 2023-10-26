@@ -1,0 +1,2 @@
+pip install -r requirements.txt -i http://mirrors.aliyun.com/pypi/simple/   --trusted-host mirrors.aliyun.com&&python ./init.py initdb&&python ./manage.py makemigrations&&python ./manage.py migrate --fake-initial&&python ./init.py initsql&&python ./manage.py shell -c "from django.contrib.auth.models import User;User.objects.filter(username='abo').exists() or User.objects.create_superuser('abo','abo@example.com', 'abo')"
+pause
